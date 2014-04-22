@@ -1,4 +1,4 @@
-# The makeCacheMatrix function creates a "special object", which is actually a list containing functions. These functions can be used to store a matrix, change it, set its inverse and store it.
+# The makeCacheMatrix function takes a matrix as argument and creates a "special object", which is actually a list of functions. These functions can be used to store a matrix, change it and to set and store its inverse .
 
 makeCacheMatrix <- function(x = matrix()) {#the function takes a matrix as argument
 	inv<-NULL #setting the inverse value to null when creating a new special matrix
